@@ -1,10 +1,8 @@
 package com.example.CourseManagement.models.services;
 import com.example.CourseManagement.data.entities.Course;
-import com.example.CourseManagement.data.entities.User;
 import com.example.CourseManagement.data.repositories.CourseRepository;
 import com.example.CourseManagement.models.dto.CourseCreateDTO;
 import com.example.CourseManagement.models.dto.CourseViewDTO;
-import com.example.CourseManagement.models.dto.UserViewDTO;
 import com.example.CourseManagement.models.mappers.CourseMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -13,7 +11,7 @@ import java.util.List;
 
 
 @Service
-public class CourseService {
+public class CourseServiceImp implements CourseService {
 
     @Autowired
     private CourseRepository courseRepository;
