@@ -61,7 +61,6 @@ Pokud je Swagger UI povoleno, otevřete `/swagger-ui/index.html` na běžícím 
   - `PUT /api/courses/update/{courseId}` – Aktualizace kurzu  
   - `DELETE /api/courses/delete/{courseId}` – Smazání kurzu  
 
-*(Konkrétní cesty API ověřte ve zdrojovém kódu)*
 
 ## Jak začít
 
