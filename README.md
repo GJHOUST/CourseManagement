@@ -29,7 +29,6 @@ API můžete testovat pomocí nástrojů:
 - **Postman** – ruční testování jednotlivých endpointů
 - **Swagger UI** – interaktivní dokumentace a testování endpointů v prohlížeči
 
-Pokud je Swagger UI povoleno, otevřete `/swagger-ui/index.html` na běžícím serveru.
 
 ## Struktura projektu
 
